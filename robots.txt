@@ -1,0 +1,33 @@
+# ============================================
+# ROBOTS.TXT - KAGAMI WEBSITE
+# ============================================
+# Mengatur akses crawler/search engine ke website
+
+# ============================================
+# SEMUA USER-AGENT (Google, Bing, dll)
+# ============================================
+User-agent: *
+Allow: /
+
+# ============================================
+# DISALLOW - Halaman yang TIDAK boleh di-crawl
+# ============================================
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+
+# ============================================
+# CRAWL DELAY - Jeda antar request crawler
+# ============================================
+Crawl-delay: 5
+
+# ============================================
+# SITEMAP - Lokasi peta situs
+# ============================================
+Sitemap: https://sulaimandurimaarif.github.io/Kagami-website/sitemap.xml
+
+# ============================================
+# HOST - Domain utama
+# ============================================
+Host: https://sulaimandurimaarif.github.io/Kagami-website/
